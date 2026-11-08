@@ -1,4 +1,4 @@
-#root{min-height:100vh}
+#root{min-height:100vh;min-height:100svh;background:#081423}
 .page-shell{position:relative;min-height:100vh;min-height:100svh;overflow:hidden;background:#081423;color:#f3f7fd;isolation:isolate}
 .page-shell::before{content:"";position:absolute;inset:0;z-index:-1;pointer-events:none;background-image:linear-gradient(rgba(132,179,222,.045) 1px,transparent 1px),linear-gradient(90deg,rgba(132,179,222,.045) 1px,transparent 1px);background-size:76px 76px;mask-image:linear-gradient(90deg,transparent 12%,#000 100%)}
 .page-shell::after{content:"";position:absolute;z-index:-1;inset:0;background:linear-gradient(90deg,#081423 0%,transparent 80%);pointer-events:none}
